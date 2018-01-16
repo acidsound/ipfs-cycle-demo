@@ -56,7 +56,7 @@ function chatBubble(me, message) {
     return me ? li('', {attrs: {style: 'width:100%'}}, [
       div('.msj.macro', [
         div('.avatar', [
-          img('.img-circle', {attrs: {style: 'width:100%', src: '/images/me.jpg'}})
+          img('.img-circle', {attrs: {style: 'width:100%', src: '../images/me.jpg'}})
         ]),
         div('.text.text-l', [
           p(message),
@@ -68,7 +68,7 @@ function chatBubble(me, message) {
             p(small(date))
           ]),
           div('.avatar', {attrs: {style: 'padding:0px 0px 0px 10px !important'}}, [
-            img('.img-circle', {attrs: {style: 'width:100%', src: '/images/them.jpg'}})
+            img('.img-circle', {attrs: {style: 'width:100%', src: '../images/them.jpg'}})
           ])
         ])
       ])

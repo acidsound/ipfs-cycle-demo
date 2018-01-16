@@ -34,7 +34,7 @@
     float:left;background:white;
 }
 .frame{
-    background-image: url(/images/blue_light_background.jpg);
+    background-image: url(../images/blue_light_background.jpg);
     height:450px;
     overflow:hidden;
     padding:0;
