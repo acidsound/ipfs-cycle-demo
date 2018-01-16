@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "cycle-scripts": "1.1.0"
+    "cycle-scripts": "1.1.0",
+    "ipfs": "^0.27.7"
   },
   "dependencies": {
     "@cycle/dom": "^18.2.0",
@@ -16,7 +17,7 @@
     "test": "cycle-scripts test",
     "build": "cycle-scripts build",
     "eject": "cycle-scripts eject",
-    "deploy": "cycle-scripts build && UploadToAz.bat"
+    "deploy": "cycle-scripts build && jsipfs add -r public"
   },
   "babel": {
     "presets": [
